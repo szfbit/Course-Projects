@@ -1,0 +1,72 @@
+initCobraToolbox
+
+1
+----------------------------------------------------
+model=readCbModel('iJR904');
+a)
+No. of genes: 904
+No. of metabolites: 761
+No. of reactions: 1075
+b)
+full(model.S) -> rank = 743
+c)
+degree of freedom=1075-743=332
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4545695/
+d)
+spy(model.S)
+
+2
+----------------------------------------------------
+solution1=optimizeCbModel(model);
+printFluxVector(model,solution1.x,true,true);
+a)
+model2=changeRxnBounds(model,'EX_glc__D_e',[-1],'l');
+solution2=optimizeCbModel(model2);
+printFluxVector(model2,solution2.x,true,true);
+-> biomass when glucose uptake is 1: 0.0604389
+
+model2_high=changeRxnBounds(model,'EX_glc__D_e',[-6],'l');
+solution2_high=optimizeCbModel(model2_high);
+printFluxVector(model2_high,solution2_high.x,true,true);
+-> biomass when glucose uptake is 6: 0.539113
+
+-> Yes. http://pubmedcentralcanada.ca/pmcc/articles/PMC182307/pdf/aem00037-0133.pdf
+
+3
+----------------------------------------------------
+a)
+model3=changeObjective(model,{'BIOMASS_Ecoli','EX_etoh_e'},[0,1]);
+solution3=optimizeCbModel(model3);
+printFluxVector(model3,solution3.x,true,true);
+-> 20; anaerobic; 0
+b)
+model4=changeRxnBounds(model,'EX_o2_e',[0],'l');
+solution4=optimizeCbModel(model4);
+printFluxVector(model4,solution4.x,true,true);
+-> 8.31963; smaller; 0
+
+-> ethanol growth decoupled under aerobic and coupled under anaerobic conditons
+
+4
+----------------------------------------------------
+a)
+[aerobic]
+[minfluxaerobic,maxfluxaerobic]=fluxVariability(model,100);
+[anaerobic]
+model5=changeRxnBounds(model,'EX_o2_e',[0],'l');
+[minfluxanaerobic,maxfluxanaerobic]=fluxVariability(model5);
+b)
+[minfluxaerobic_50,maxfluxaerobic_50]=fluxVariability(model,100,0.5);
+-> larger range
+
+5
+----------------------------------------------------
+[aerobic]
+grRatioFBA=singleGeneDeletion(model,'FBA');
+nnz(grRatioFBA);
+[anaerobic]
+model6=changeRxnBounds(model,'EX_o2_e',[0],'l');
+grRatioFBA_an=singleGeneDeletion(model6,'FBA');
+nnz(~isnan(grRatioFBA_an))
+
+[grRatio, grRateKO, grRateWT, hasEffect, delRxns, fluxSolution]=singleGeneDeletion(model,'FBA')

@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chalancon1}
+G.~Chalancon, K.~Kruse, and M.~M. Babu.
+\newblock Metabolic networks, structure and dynamics.
+\newblock {\em Encyclopedia of Systems Biology}, pages 1263--1267, 2013.
+
+\bibitem{Feist2}
+A.~M. Feist, M.~J. Herrgård, Thiele, J.~L. I., Reed, and B.~Palsson.
+\newblock Reconstruction of biochemical networks in microorganisms.
+\newblock {\em Nature Reviews Microbiology}, 7(2):129--143, 2009.
+
+\bibitem{Conde3}
+P.~D. R.~M. Conde, T.~Sauter, and T.~Pfau.
+\newblock Constraint based modeling going multicellular.
+\newblock {\em Frontiers in molecular biosciences}, 3, 2016.
+
+\bibitem{Kumar4}
+V.~S. Kumar, M.~S. Dasika, and C.~D. Maranas.
+\newblock Optimization based automated curation of metabolic reconstructions.
+\newblock {\em BMC bioinformatics}, 8(1):212, 2007.
+
+\bibitem{Burgard5}
+A.~P. Burgard, P.~Pharkya, and C.~D. Maranas.
+\newblock Optknock: a bilevel programming framework for identifying gene
+  knockout strategies for microbial strain optimization.
+\newblock {\em Biotechnology and bioengineering}, 84(6):647--657, 2003.
+
+\bibitem{Patil6}
+Rocha~I. Patil, K.~R., J.~Förster, and J.~Nielsen.
+\newblock Evolutionary programming as a platform for in silico metabolic
+  engineering.
+\newblock {\em BMC bioinformatics}, 6(1):308, 2005.
+
+\bibitem{Smallbone7}
+K.~Smallbone and E.~Simeonidis.
+\newblock Flux balance analysis: a geometric perspective.
+\newblock {\em Journal of theoretical biology}, 258(2):311--315, 2009.
+
+\bibitem{Schellenberger8}
+J.~Schellenberger, N.~E. Lewis, and B.~Palsson.
+\newblock Elimination of thermodynamically infeasible loops in steady-state
+  metabolic models.
+\newblock {\em Biophysical journal}, 100(3):544--553, 2011.
+
+\bibitem{Thiele9}
+I.~Thiele, N.~D. Price, T.~D. Vo, and B.~Palsson.
+\newblock Candidate metabolic network states in human mitochondria impact of
+  diabetes, ischemia, and diet.
+\newblock {\em Journal of Biological Chemistry}, 280(12):11683--11695, 2005.
+
+\bibitem{Klamt10}
+S.~Klamt, J.~Stelling, M.~Ginkel, and E.~D. Gilles.
+\newblock Fluxanalyzer: exploring structure, pathways, and flux distributions
+  in metabolic networks on interactive flux maps.
+\newblock {\em Bioinformatics}, 19(2):261--269, 2003.
+
+\bibitem{Hucka11}
+M.~Hucka, A.~Finney, H.~M. Sauro, H.~Bolouri, J.~C. Doyle, H.~Kitano, and A.~A.
+  Cuellar.
+\newblock The systems biology markup language (sbml): a medium for
+  representation and exchange of biochemical network models.
+\newblock {\em Bioinformatics}, 19(4):524--531, 2003.
+
+\bibitem{Orth12}
+J.~D. Orth, I.~Thiele, and B.~Palsson.
+\newblock What is flux balance analysis?
+\newblock {\em Nature biotechnology}, 28(3):245--248, 2010.
+
+\bibitem{Thorleifsson13}
+S.~G. Thorleifsson and I.~Thiele.
+\newblock A cobra toolbox extension for reconstructing high-quality biochemical
+  networks.
+\newblock {\em Bioinformatics}, 27(14):2009--2010, 2011.
+
+\bibitem{TZimmerman14}
+J.~TZimmerman.
+\newblock Thermodynamics of biochemical reactions: Alberty, robert a.
+\newblock 2003.
+
+\bibitem{Jankowski15}
+M.~D. Jankowski, C.~S. Henry, L.~J. Broadbelt, and V.~Hatzimanikatis.
+\newblock Group contribution method for thermodynamic analysis of complex
+  metabolic networks.
+\newblock {\em Biophysical journal}, 95(3):1487--1499, 2008.
+
+\bibitem{Kostromins16}
+A.~Kostromins and E.~Stalidzans.
+\newblock Paint4net: Cobra toolbox extension for visualization of
+  stoichiometric models of metabolism.
+\newblock {\em Biosystems}, 109(2):233--239, 2012.
+
+\bibitem{Mao17}
+L.~Mao and W.~S. Verwoerd.
+\newblock Orca: a cobra toolbox extension for model-driven discovery and
+  analysis.
+\newblock {\em Bioinformatics}, 30(4):584--585, 2013.
+
+\bibitem{Hinton18}
+H.~Scott Hinton.
+\newblock Flux balance analysis overview.
+\newblock {\em Utah State University}, 2015.
+
+\bibitem{Leonid19}
+Leonid. Chindelevitch, Jason. Trigg, Aviv. Regev, and Bonnie. Berger.
+\newblock An exact arithmetic toolbox for a consistent and reproducible
+  structural analysis of metabolic network models.
+\newblock {\em Nature Communications}, 5(4893), 2014.
+
+\bibitem{Leonid20}
+Leonid Chindelevitch.
+\newblock Extracting information from biological networks.
+\newblock {\em DSpace@MIT. https://dspace.mit.edu/handle/1721.1/64607}, 2006.
+
+\bibitem{Becker20}
+S.~A. Becker, A.~M. Feist, and et~al.
+\newblock Quantitative prediction of cellular metabolism with
+  constraint‐based models: the cobra toolbox.
+\newblock {\em Nature protocols}, 2(3):727‐738, 2007.
+
+\bibitem{Leonid21}
+Leonid. Chindelevitch, Jason. Trigg, Aviv. Regev, and Bonnie. Berger.
+\newblock Metamerge: scaling up genome-scale metabolic reconstructions with
+  application to mycobacterium tuberculosis.
+\newblock {\em Genome biology}, 13(1), 2012.
+
+\bibitem{Leonid22}
+Leonid. Chindelevitch, Jason. Trigg, Aviv. Regev, and Bonnie. Berger.
+\newblock Reply to “do genome‐scale models need exact solvers or clearer
+  standards?”.
+\newblock {\em Molecular systems biology}, 11(10):830, 2015.
+
+\end{thebibliography}

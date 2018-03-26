@@ -1,0 +1,8 @@
+[1] Castaño-Cerezo, Sara & Pastor, José & Renilla, Sergio & Bernal, Vicente & Iborra, Jose & Cánovas, Manuel. (2009). "An insight into the role of phosphotransacetylase (PTA) and the acetate/acetyl-CoA node in Escherichia coli. Microbial cell factories."" 8. 54. 10.1186/1475-2859-8-54. 
+[2] R. Mahadevan. (2008). "Constraint-based Models of Metabolism". Canadian Bioinformatics Workshops. Module 4: Metabolic modelling. https://bioinformatics.ca/systemsday1-module4pdf 
+[3] Becker, S. A., A. M. Feist, et al. (2007). "Quantitative prediction of cellular metabolism with constraint‐based models: the COBRA Toolbox." Nature protocols 2(3): 727‐738.
+[4] Orth, J. D., Thiele, I., & Palsson, B. Ø. (2010). What is flux balance analysis? Nature Biotechnology, 28(3), 245–248. http://doi.org/10.1038/nbt.1614
+[5] H. Scott Hinton. (2015). "Flux Balance Analysis Overview. https://systemsbiology.usu.edu/documents/Flux%20Balance%20Analysis%20Overview.pdf
+[6] Leonid Chindelevitch, Jason Trigg, Aviv Regev & Bonnie Berger. (2014). "An exact arithmetic toolbox for a consistent and reproducible structural analysis of metabolic network models." Nature Communications, 5:4893
+[7] Leonid Chindelevitch. (2006). "Extracting Information from Biological Networks". DSpace@MIT. https://dspace.mit.edu/handle/1721.1/64607
+

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: unsrt.bst
+Database file #1: report.bib
+Too many commas in name 1 of "Patil, K. R., Rocha, I. and Förster, J. and Nielsen, J." for entry Patil6
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in TZimmerman14
+You've used 23 entries,
+            1791 wiz_defined-function locations,
+            602 strings with 7273 characters,
+and the built_in function-call counts, 5244 in all, are:
+= -- 439
+> -- 256
+< -- 1
++ -- 94
+- -- 71
+* -- 410
+:= -- 869
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 212
+empty$ -- 501
+format.name$ -- 71
+if$ -- 1152
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 23
+newline$ -- 118
+num.names$ -- 23
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 90
+stack$ -- 0
+substring$ -- 366
+swap$ -- 33
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 41
+width$ -- 25
+write$ -- 251
+(There was 1 error message)
