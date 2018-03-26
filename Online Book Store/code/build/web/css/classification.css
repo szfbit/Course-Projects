@@ -1,0 +1,61 @@
+td img
+{
+	width:150px;
+	height:210px;
+}
+
+table
+{
+	width:380px;
+	display:inline-block;
+	text-align: center;
+	margin-left: 20px;
+	border-collapse:collapse;
+	margin-top:20px;
+        table-layout:fixed;
+}
+
+
+.catStyle
+{
+	background-color: pink;
+	height:50px;
+}
+
+#tbB
+{
+	margin-left:40px;
+}
+
+.tdLR
+{
+	padding-top: 10px;
+	border-left:2px dashed pink;
+	border-right:2px dashed pink;
+	border-top:none;
+	border-bottom:none;
+}
+
+.tdLRB
+{
+	padding-top: 10px;
+	border-left:2px dashed pink;
+	border-right:2px dashed pink;
+	border-top:none;
+	border-bottom:2px dashed pink;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+.btn
+{
+	text-align: right;
+}
+
+button
+{
+	margin-top:10px;
+	width:120px;
+	height:30px;
+}

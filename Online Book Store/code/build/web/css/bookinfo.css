@@ -1,0 +1,120 @@
+#imgtd
+{
+	text-align: center;
+}
+
+table td
+{
+	text-align: left;
+	padding-left: 40px;
+}
+
+#book
+{
+    margin-left:50px;
+    margin-bottom:20px;
+}
+
+td button
+{
+	width:150px;
+	height:40px;
+}
+.tdClass
+{
+	width:400px;
+	height:70px;
+}
+
+#bookimg
+{
+	width:150px;
+	height:210px;
+}
+
+#description
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+        background-color: white;
+}
+
+
+#starB
+{
+    padding-left:20px;
+    margin-bottom:20px;
+}
+
+#comment
+{
+	width:860px;
+	height:200px;
+	margin-left:20px;
+	margin-right:20px;
+	resize:none;
+	display:block;
+}
+
+#submitB
+{
+	margin-top:20px;
+	text-align: right;
+	margin-right:20px;
+}
+
+#submitB button
+{
+	width:100px;
+	height:40px;
+}
+.editButton
+{
+	height:30px;
+	width:70px;
+}
+
+.inputText
+{
+	height:30px;
+	width:170px;
+}
+
+.save_resetButton
+{
+	height:50px;
+	width:100px;
+}
+#save_reset
+{
+	text-align: center;
+}
+
+
+#starB img
+{
+	width:30px;
+	height:30px;
+}
+
+#starImg
+{
+        width:100px;
+        height:20px;
+}
+
+p
+{
+    padding-left:20px;
+}
+#desP
+{
+    text-align: left;
+}
+
+.priceClass
+{
+    height:40px;
+}

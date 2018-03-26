@@ -1,0 +1,12 @@
+.lastP
+{
+    text-decoration: line-through;
+    color:grey;
+    font-size: 10pt;
+}
+
+.curP
+{
+    color:red;
+    font-size:13px;
+}

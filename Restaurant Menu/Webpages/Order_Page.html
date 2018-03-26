@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+
+<script type="text/javascript" src="../js/orderpage.js">
+</script>
+  <title>Order_Page</title>
+  <style type="text/css">
+<!--
+@import "../css/common_styles.css";
+@import "../css/orderpage.css";
+-->
+
+  </style>
+ <style media="print"  type="text/css">
+.noprint 
+{ 
+	display: none;
+}
+
+#all
+{	
+	margin-left:0px;
+	width:1000px;
+	font-size:large;
+	color:black;
+	!important;
+}
+#refs
+{
+	margin-left:10px;
+	margin-right:10px;
+	!important;
+}
+#titleForPrint
+{
+	display: block;
+	font-weight:bold;
+	font-size:50px;
+	color:black;
+	!important;
+}
+	
+#thead
+{
+	font-size:30px;
+}
+
+table#finalOrder td
+{
+	font-size:20px;;
+	!important;
+}
+
+</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="WANG Yiji" />
+  <meta name="description" content="Village cafe orderpage" />
+  <meta name="keywords" content="cafe, village, french food, France, nice food, good food, cuisine, delicious, delicate"/>
+</head>
+
+<body onload="changeTabNum();">
+
+	<div id="all">
+		<!-- Banner -->
+		<div id="upper" class="noprint">
+		<div id="subUpper">
+			<div>
+				<img id="bannerPic" src="../image/village_cafe.png" alt="Village Cafe Picture"/> 
+			</div>
+			
+			<hr id="footerhr1" />
+
+			<div id="Summer_Menu">
+				<span>Summer Menu</span> 
+			</div>
+			<br/>
+			<hr class="hrDecoration" />
+			
+		<div>
+			<div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/Foie_Gras_Saute.jpeg" alt="Foie_Gras_Saute" /> 
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Foie Gras Saute <span class="priceColor">$32</span></span> <br />
+
+						<select id="s0">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(0);">Add to order</button> 
+					</div>
+				</div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/Bouillabaisse.jpg" alt="Bouillabaisse" />
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Bouillabaisse <span class="priceColor">$27</span></span> <br />
+
+						<select id="s1">
+						  <option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(1);">Add to order</button> 
+					</div>
+				</div>
+				
+			</div>
+			<hr />
+			
+			<div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/Blanquette de veau.jpg" alt="Blanquette de veau" /> 
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Blanquette De Veau <span class="priceColor">$30</span></span> <br />
+
+						<select id="s2">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(2);">Add to order</button> 
+					</div>
+				</div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/steak fries.jpg" alt="steak fries" />
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Steak Fries <span class="priceColor">$24</span></span> <br />
+
+						<select id="s3">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(3);">Add to order</button> </div>
+					</div>
+				</div>
+				
+			</div>
+			<hr />
+
+			<div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/Valençay (cheese).JPG" alt="Valençay (cheese)" /> 
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Valençay (cheese) <span class="priceColor">$35</span></span> <br />
+
+						<select id="s4">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(4);">Add to order</button> 
+					 </div>
+				</div>
+
+				<div class="menu">
+
+					<div class="menu">
+						<img class="sizeOfImg" src="../image/Lobster_bisque.jpg" alt="Lobster_bisque"/> 
+					</div>
+
+					<div class="menuWord">
+						<span class="nameOfDishes">Lobster Bisque <span class="priceColor">$28</span></span> <br />
+
+						<select id="s5">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<button type="button" onclick="createList(5);">Add to order</button> 
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<br />
+		<br />
+
+		<hr class="hrDecoration" />
+		</div>
+		<!--list of order-->
+
+	<div id="theBelow">
+		<div id="titleForPrint">
+			Village Cafe
+			<br/>
+		</div>
+		<br/>
+		<div id="refs">
+			<div id="thead">Order List for Table <span id="tabNum">4</span></div>
+			<table id="finalOrder">
+			  <tbody>
+				<tr>
+				  <td class="headStyle">Ref</td>
+				  <td class="headStyle">Desc</td>
+				  <td class="headStyle">Qty</td>
+				  <td class="headStyle">US$</td>
+				</tr>
+
+			  </tbody>
+			</table>
+			<button type="button" id="check_out" onclick="window.print()" class="noprint">Check Out</button> 
+			
+		</div>
+		<br />
+		<br />
+
+		<hr class="hrDecoration"/>
+		<br />
+
+
+		<div id="totD">
+			<span id="totWord">Total: </span><span id="totMoney">$?</span> 
+		</div>
+	</div>
+		<br />
+		<!-- Navigation bar and footer --> 
+		<div id="NavigationFooter" class="noprint">
+			<hr id="footerhr" />
+
+			<div id="linka">
+				<span id="aHome1"><a>Home</a><span>|</span></span> 
+				<span id="aHome2"><a href="Home_Page.html">Home</a> |</span> 
+				<span id="aAbout"><a>About us</a>|</span> 
+				<span id="aPrivacy"><a>Privacy</a> |</span> 
+				<span id="aContact"><a>Contact us</a> |</span> 
+				<span id="aStaff1"><a>Staff Only</a></span> 
+				<span id="aStaff2"><a href="Table_Page.html">Staff Only</a></span> 
+			</div>
+			<br />
+
+			<hr />
+
+			<p>
+				<span id="footer"><span>Designed by WANG Yiji &amp; Images provided by-</span> 
+				<a href="http://commons.wikimedia.org">http://commons.wikimedia.org</a> </span>
+			</p>
+		</div>
+	</div>
+	<!-- Following Navigation -->
+
+	<div id="navig" class="noprint">
+		<ul id="navigUl">
+		  <li id="aHomeN1"><a id="aHomeT">Home</a> 
+			<hr />
+		  </li>
+		  <li id="aHomeN2"><a href="Home_Page.html">Home</a> 
+			<hr />
+		  </li>
+		  <li id="aAboutN"><a>About us</a> 
+			<hr />
+		  </li>
+		  <li id="aPrivacyN"><a>Privacy</a> 
+			<hr />
+		  </li>
+		  <li id="aContactN"><a>Contact us</a> 
+			<hr />
+		  </li>
+		  <li id="aStaffN1"><a>Staff Only</a> 
+			<hr />
+		  </li>
+		  <li id="aStaffN2"><a href="Table_Page.html">Staff Only</a> 
+			<hr />
+		  </li>
+		</ul>
+	</div>
+	<!--back to top-->
+
+	<div id="backToTop" class="noprint">
+		<a href="#upper"><img id="backT" src="../image/top.png" alt="back to top"/></a> 
+	</div>
+	
+</body>
+</html>

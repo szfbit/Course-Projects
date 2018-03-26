@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5EE18E8D-D9C2-44CE-A016-240F5B66C9F3}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>ggg</RootNamespace>
+    <ProjectName>CS 3402 Proj</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>Pure</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACInfoHis.cpp" />
+    <ClCompile Include="ACourse.cpp" />
+    <ClCompile Include="AInter.cpp" />
+    <ClCompile Include="ASInfoHis.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="AStident.cpp" />
+    <ClCompile Include="Designer.cpp" />
+    <ClCompile Include="Form2.cpp" />
+    <ClCompile Include="ggg.cpp" />
+    <ClCompile Include="gradeInput.cpp" />
+    <ClCompile Include="gradeWarning.cpp" />
+    <ClCompile Include="modDept.cpp" />
+    <ClCompile Include="modMajor.cpp" />
+    <ClCompile Include="SAllC.cpp" />
+    <ClCompile Include="SChangePassW.cpp" />
+    <ClCompile Include="SCourseR.cpp" />
+    <ClCompile Include="SInter.cpp" />
+    <ClCompile Include="SModifyInfo.cpp" />
+    <ClCompile Include="SshowAllG.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tps.cpp" />
+    <ClCompile Include="TpsU.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACInfoHis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ACourse.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AInter.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ASInfoHis.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AStident.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Designer.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Form2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="gradeInput.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="gradeWarning.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="modDept.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="modMajor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SAllC.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SChangePassW.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SCourseR.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SInter.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SModifyInfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SshowAllG.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Tps.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TpsU.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACInfoHis.resx">
+      <DependentUpon>ACInfoHis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACourse.resx">
+      <DependentUpon>ACourse.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AInter.resx">
+      <DependentUpon>AInter.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASInfoHis.resx">
+      <DependentUpon>ASInfoHis.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AStident.resx">
+      <DependentUpon>AStident.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Designer.resx">
+      <DependentUpon>Designer.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gradeInput.resx">
+      <DependentUpon>gradeInput.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gradeWarning.resx">
+      <DependentUpon>gradeWarning.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modDept.resx">
+      <DependentUpon>modDept.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modMajor.resx">
+      <DependentUpon>modMajor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAllC.resx">
+      <DependentUpon>SAllC.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SChangePassW.resx">
+      <DependentUpon>SChangePassW.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCourseR.resx">
+      <DependentUpon>SCourseR.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SInter.resx">
+      <DependentUpon>SInter.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SModifyInfo.resx">
+      <DependentUpon>SModifyInfo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SshowAllG.resx">
+      <DependentUpon>SshowAllG.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tps.resx">
+      <DependentUpon>Tps.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TpsU.resx">
+      <DependentUpon>TpsU.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

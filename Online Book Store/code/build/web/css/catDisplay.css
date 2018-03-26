@@ -1,0 +1,68 @@
+td img
+{
+	width:150px;
+	height:210px;
+}
+
+table
+{
+	display:inline-block;
+	text-align: center;
+	margin-left: 20px;
+	border-collapse:collapse;
+	margin-top:10px;
+        table-layout: fixed;
+}
+
+#t1
+{
+	width:800px;
+}
+
+#t2
+{
+	width:600px;
+}
+
+#cat
+{
+	text-align: center;
+}
+
+.catStyle
+{
+	background-color: pink;
+	height:50px;
+}
+
+.tdLR
+{
+	padding-top: 10px;
+	border-left:2px dashed pink;
+	border-right:2px dashed pink;
+	border-top:none;
+	border-bottom:none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+.tdLRB
+{
+	padding-top: 10px;
+	border-left:2px dashed pink;
+	border-right:2px dashed pink;
+	border-top:none;
+	border-bottom:2px dashed pink;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+
+button
+{
+	margin-top:10px;
+	width:120px;
+	height:30px;
+}

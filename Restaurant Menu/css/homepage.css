@@ -1,0 +1,191 @@
+﻿/*id definition*/
+#branchT,#Tbranches
+{
+	float:left;
+	position:relative;
+}
+
+
+#picForPromotion
+{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+#Plug-in
+{
+	width:480px;
+	height:320px;
+}
+
+#video
+{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+#village_cafe
+{	
+	text-align: center ;
+}
+
+#branchT,#map
+{
+	float:left;
+	width:50%;
+}
+
+#promotion
+{
+	overflow:hidden;
+	text-align:right;
+	position:relative;
+	border:solid;
+	border-width:2px;
+	border-color:gray;
+	width:96%;
+	margin-left:2%;
+}
+
+#scroll_begin
+{
+	text-align:right;
+	width:100%;
+	position:relative;
+	font-size:35px;
+	font-family:Californian FB;
+	color:#FF0000;
+}
+#scroll_end
+{
+	text-align:right;
+	width:100%;
+	position:relative;
+	font-size:35px;
+	font-family:Californian FB;
+	color:#FF0000;
+	right:-100px;
+}
+
+#description,#price
+{
+	font-size:20px;
+	font-family:Californian FB;
+	font-weight:bold;
+}
+
+#map
+{
+	width:48%;
+	border:solid;
+	border-width:3px;
+	border-color:gray;
+	text-align:center;
+}
+
+#branchT h3
+{
+	color:#6600CC;
+}
+
+li#aHomeN2,#aStaffN1
+{
+	display:none;
+}
+
+#aHome2,#aStaff1
+{
+	display:none;
+}
+
+#video1,#video2,#proDish
+{
+	width:480px;
+	height:320px;
+}
+
+#logo-left,#logo-right
+{
+	width:100px;
+}
+
+#aHome1,#aHomeT,#aHomeW
+{
+	color:gray;
+	text-decoration:none;
+	!important;
+}
+
+/*classes*/
+.pad
+{
+	padding-top:30px;
+	padding-bottom: 50px;
+ 	width:50%;
+  	height:260px;
+}
+
+.words
+{
+	clear:both;
+	float:left;
+	width:50%;
+}
+
+.pics
+{
+	float:left;
+	width:50%;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.firstLetter
+{
+	font-size:30px;
+}
+
+.newLine
+{
+	clear:both;
+	float:inherit;
+	background-color:#FFFF99;
+	border-style:ridge;
+	height:5px;
+}
+
+.hrDecoration
+{
+	clear:both;
+	float:inherit;
+	color:#00CC00;
+	background-color:#FFCCFF;
+	border-style:dotted;
+	height:2px;
+}
+
+.branches
+{
+	font-size:larger;
+	font-weight:bold;
+}
+
+/*block element definition*/
+h3 
+{
+	text-align: center;
+	font-size:23px;
+	font-family:Gungsuh;
+	color:#0000CC;
+}
+p
+{
+	padding-left:20px;				
+}
+
+#scroll_begin, #scroll_end
+{
+	display:inline;
+}

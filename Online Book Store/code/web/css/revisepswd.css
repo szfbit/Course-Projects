@@ -1,0 +1,32 @@
+#revise
+{
+	height:250px;
+	width:300px;
+/*	border:2px solid #ff6699;*/
+	margin-left:320px;
+	padding-top: 50px;
+}
+
+#confirm_cancel
+{
+	margin-top:25px;
+	text-align: center;
+}
+#confirm_cancel button
+{
+	width:70px;
+	height:30px;
+	margin-left:10px;
+}
+
+#wrong
+{
+	display:none;
+	color:red;
+}
+
+#blank
+{
+	display:none;
+	color:red;
+}

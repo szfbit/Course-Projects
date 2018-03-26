@@ -1,0 +1,61 @@
+td {
+    text-align: center;
+}
+thead {
+    font-weight: bold;
+    background-color: #D8EDFE;
+}
+.sum{
+    text-align: right;
+}
+.summ{
+    position:relative;
+    left:-10px;
+}
+#tableContainer {
+    width:800px;
+    margin:auto;
+}
+#box{
+    margin-top: 20px;
+}
+table {
+    border: 2px solid #ff6699;
+    width: inherit;
+    margin: auto;
+    table-layout: fixed;
+
+}
+.title {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.price {
+    width:60px;
+}
+.type {
+    width:150px;
+}
+.qty {
+    width:80px;
+}
+.subt {
+    width:65px;
+}
+.del {
+
+}
+.button {
+    position:relative;
+    left:240px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 50px;
+    width: 160px;
+    background-color: #BEDF7D;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,177 @@
+body
+{
+	background: #EFEFEF url(../images/main-bg.jpg) repeat;
+}
+
+#wrapper
+{
+	width:900px;
+	margin: 0 auto;
+	border:2px solid #ff6699;
+}
+
+#logoBlock
+{	
+	display:inline;
+	clear:right;
+}
+
+#logo
+{
+        padding-top:10px;
+	width:300px;
+	padding-left:10px;
+}
+
+#search
+{
+	display:inline;
+	width:300px;
+	height:200px;
+
+	position:relative;
+	top:-40px;
+	left:20px;
+}
+
+#searchIMage
+{
+	height:20px;
+}
+
+#searchText
+{
+	height: 40px;
+	width: 200px;
+}
+
+#searchButton
+{
+	height: 40px;
+	width: 60px;
+}
+
+#selectS
+{
+    height:40px;
+    line-height: 40px;
+}
+
+form
+{
+    display:inline;
+}
+
+#loginReg
+{
+        padding-top:10px;
+	display:inline;
+	position:relative;
+	left:70px;
+	top:-130px;
+}
+
+#cartCheck
+{
+	display:inline-block;
+	position:relative;
+        left:750px;
+	top:-80px;
+}
+
+#cartB, #checkB
+{
+	width:60px;
+	height:40px;
+}
+
+#menu
+{
+    background-color:#ff6699;
+}
+#menu li
+{
+	display:inline
+}
+
+.menuClass
+{
+	padding-top: 10px;
+	font-size:20px;
+	height:30px;
+}
+
+#menu a
+{
+	color:white;
+	text-decoration: none;
+	margin-left:130px;
+}
+
+#menu a:hover
+{
+	background-color: rgb(180, 40, 40);
+}
+
+#footer
+{
+    background-color:#ff6699;
+	color:white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.proverbClass
+{
+    margin-top:-20px;
+	text-align: center;
+	background-color: white;
+}
+#proverb
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width:700px;
+}
+
+.titleStyle
+{
+        background-color:#ff6699;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#bookName td
+{
+    height:40px;
+}
+
+#hB, #rB, #nB
+{
+	margin-top:20px;
+	margin-left: 55px;
+        width:800px;
+        table-layout:fixed;
+	text-align: center;
+        border: 2px dashed pink;
+        margin-bottom:20px;
+}
+
+#hB td, #rB td, #nB td
+{
+        
+	width:180px;
+	height:20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+#hB td img, #rB td img, #nB td img
+{
+	width:150px;
+	height:210px;
+}

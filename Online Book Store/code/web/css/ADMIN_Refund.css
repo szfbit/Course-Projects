@@ -1,0 +1,15 @@
+#tableContainer
+{
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+td
+{
+    width:150px;
+    border:2px solid #ff6699;
+}

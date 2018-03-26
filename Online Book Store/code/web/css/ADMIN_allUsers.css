@@ -1,0 +1,24 @@
+#usersT 
+{
+	width:850px;
+	margin-left:10px;
+        border-collapse: collapse;
+}
+
+#usersT td
+{
+	border:2px solid pink;
+      
+}
+
+#usersT button
+{
+    width:70px;
+    height:30px;
+}
+
+#usersT input
+{
+    width:90px;
+    height:30px;
+}

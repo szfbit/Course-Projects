@@ -1,0 +1,105 @@
+  ggg.ACInfoHis.resources - Embedded, ContainedInManifestFile, 
+  ggg.ACourse.resources - Embedded, ContainedInManifestFile, 
+  ggg.AInter.resources - Embedded, ContainedInManifestFile, 
+  ggg.ASInfoHis.resources - Embedded, ContainedInManifestFile, 
+  ggg.AStident.resources - Embedded, ContainedInManifestFile, 
+  ggg.Designer.resources - Embedded, ContainedInManifestFile, 
+  ggg.Form1.resources - Embedded, ContainedInManifestFile, 
+  ggg.Form2.resources - Embedded, ContainedInManifestFile, 
+  ggg.gradeInput.resources - Embedded, ContainedInManifestFile, 
+  ggg.gradeWarning.resources - Embedded, ContainedInManifestFile, 
+  ggg.modDept.resources - Embedded, ContainedInManifestFile, 
+  ggg.modMajor.resources - Embedded, ContainedInManifestFile, 
+  ggg.SAllC.resources - Embedded, ContainedInManifestFile, 
+  ggg.SChangePassW.resources - Embedded, ContainedInManifestFile, 
+  ggg.SCourseR.resources - Embedded, ContainedInManifestFile, 
+  ggg.SInter.resources - Embedded, ContainedInManifestFile, 
+  ggg.SModifyInfo.resources - Embedded, ContainedInManifestFile, 
+  ggg.SshowAllG.resources - Embedded, ContainedInManifestFile, 
+  ggg.Tps.resources - Embedded, ContainedInManifestFile, 
+  ggg.TpsU.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CS 3402 Proj, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ggg.ACInfoHis: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.Tps: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.ACourse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.ASInfoHis: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.TpsU: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.AStident: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.Designer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.AInter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.Form2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SAllC: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.gradeInput: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.gradeWarning: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SCourseR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 gradeStr : Public, Static
+  Methods:
+    InitializeComponent(): PrivateScope, Public, HideBySig
+Class ggg.modDept: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.modMajor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SModifyInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SshowAllG: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SChangePassW: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.SInter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Data.OracleClient.OracleConnection, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ggg.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

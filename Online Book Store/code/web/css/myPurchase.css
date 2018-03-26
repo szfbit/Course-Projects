@@ -1,0 +1,51 @@
+td {
+    text-align: center;
+}
+thead {
+    font-weight: bold;
+    background-color: #D8EDFE;
+}
+.sum{
+    text-align: right;
+}
+.summ{
+    position:relative;
+    left:-10px;
+}
+table {
+    border-width: thin;
+    width: 550px;
+    margin: auto;
+}
+#remarkB
+{
+        height:500px;    
+	border:solid;
+	width:550px;
+	background-color: white;
+	margin-left:300px;
+}
+
+#starImg
+{
+    width:100px;
+    height:20px;
+}
+.pid {
+    width: 100px; 
+}
+.bid {
+    width:80px;
+}
+.qty {
+    width:80px;
+}
+.subt {
+    width:60px;
+}
+.sending{
+    width:100px;
+}
+.del {
+
+}

@@ -1,0 +1,97 @@
+﻿h1 {
+    font-size: 18px;
+    font-weight:bold;
+}
+#container {
+    width:850px;
+    margin:auto;
+}
+#header {
+    height:72px;
+}
+#headerLine {
+    float: right;
+    width:635px;
+    height:30px;
+    margin-top:21px;
+    margin-bottom:auto;
+    background:aliceblue;
+}
+#store_advert {
+    width:499px;
+    height: 214px;
+}
+#advert_pic {
+    height:168px;
+    width:146px;
+    float:left;
+    position:relative;
+    top:15px;
+    left:10px;
+}
+#advert_text {
+    width:255px;
+    position:relative;
+    top:20px;
+    left:10px;
+}
+#store_info {
+    width: 400px;
+    margin-left: 20px;
+}
+
+    #store_info li {
+        font-size: 14px;
+        color: gray;
+    }
+
+#login_container {
+    width: 350px;
+    float:right;
+    background-color:aliceblue;
+}
+#log_title {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color:blue;
+    margin-bottom:0px;
+}
+#submit {
+    position: relative;
+    left: 15px;
+    width: 150px;
+    color:white;
+    background-color:#33cc00;
+    font-size:18px;
+
+}
+.ad_text {
+    position:relative;
+    left:10px;
+}
+.inputBar {
+    width: 290px;
+    height: 38px;
+    margin-top:4px;
+    margin-bottom:4px;
+    position:relative;
+    left:15px;
+    font-size:20px;
+    
+}
+
+#advert_img
+{
+    width:300px;
+    margin-left:40px;
+}
+
+#container
+{
+    border:2px dashed pink;
+    height:390px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+}

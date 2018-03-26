@@ -1,0 +1,111 @@
+﻿/*body part*/
+body
+{
+	background-image:url('../image/background-body.jpg');
+	background-attachment:fixed;
+ 	background-position:center;						
+}
+
+/* following navigation block*/
+ul#navigUl
+{
+	list-style-image: url('../image/microPrefix.png');
+}
+
+/* the main division */
+#all
+{	background-color:#FFFFCC;
+	position:absolute;
+	float:inherit;
+	margin-left:20%;
+	margin-right:25%;
+	width:1100px;
+	border-style:groove;
+	border-top-color:white;
+	border-right-color:white;	
+	border-bottom-color:white;	
+	border-left-color:white;
+}
+
+/* banner picture */
+#bannerPic
+{
+	float:inherit;
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-left:25px;						
+}
+
+/*navigation footer*/
+#NavigationFooter
+{
+	float:inherit;
+}
+
+/* footer part*/
+#footer
+{
+	margin-left:20px;
+}
+
+/* the bottom navigation*/
+#linka
+{
+	width:100%;
+	float:left;
+	margin-left:20px;
+}
+
+/* hr lines of footer*/
+#footerhr,#footerhr1
+{ 
+	clear:both;
+	float:inherit;
+	color:#00CC00;
+	background-color:green;
+	border-style:outset;
+	height:7px;
+}
+
+#backToTop
+{
+	bottom:0px;
+	right:25px;
+	position:fixed;
+	width:20px;
+}
+
+#backT
+{
+	width:40px;
+}
+
+/* the following navigation block*/
+#navig
+{
+	background-color:#FFFFCC;
+	border-style:groove;
+	border-color:gray;
+	position:fixed;
+	float:left;
+	left:12%;
+	width:125px;
+}
+
+li
+{
+	text-align:left;
+	list-style-type:disc;
+}
+
+a
+{
+	color:#FF0000;
+	text-decoration:none; 
+}
+
+a:hover 
+{
+	color:green;
+	text-decoration:underline;
+}

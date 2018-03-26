@@ -1,0 +1,32 @@
+#booksT 
+{
+	width:850px;
+	margin-left:10px;
+        
+        border-collapse: collapse;
+}
+
+#booksT td
+{
+	border:2px solid pink;
+      
+}
+
+#booksT img
+{
+    height:70px;
+    width:40px;
+}
+
+
+#booksT button
+{
+    width:70px;
+    height:30px;
+}
+
+#booksT input
+{
+    width:90px;
+    height:30px;
+}

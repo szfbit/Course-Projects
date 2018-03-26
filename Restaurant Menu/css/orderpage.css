@@ -1,0 +1,148 @@
+﻿/*id definition*/
+#refs, #titleForPrint
+{
+	text-align:center;
+	margin-left:25px;
+	margin-right:10px;
+}
+
+#totD
+{
+	text-align:center;
+	font-size:70px;
+	font-family:Edwardian Script ITC;
+	font-weight:bold;
+}
+
+#titleForPrint
+{
+	display:none;
+}
+
+#totWord
+{
+	color:#3333FF;
+}
+
+#theBelow
+{
+	display:none;
+}
+
+#totMoney
+{
+	color:#FF3399;
+}
+
+#check_out
+{
+	width:100px;
+	height:30px;
+	margin-top:40px;
+	margin-left:10px;
+	font-family:Lucida Calligraphy;	
+}
+
+/*classes*/
+.headStyle
+{
+	color:#0099CC;
+	font-size:30px;
+}
+
+.contentStyle
+{
+	color:#FF5050;
+}
+.contentStyle1
+{
+	color:#0099CC;
+}
+
+.priceColor
+{
+	color:#FF5050;
+}
+
+.hrDecoration
+{
+	clear:both;
+	float:inherit;
+	background-color:#FFCC99;
+	border-style:groove;
+	height:5px;
+}
+
+/*block element definition*/
+#Summer_Menu
+{
+	font-size:70px;
+	text-align:center;
+	font-family: Edwardian Script ITC;
+	color:#CC0000;
+	font-weight:bold;
+}
+
+#thead, #titleForPrint
+{
+	font-size:36px;
+	color:#3333FF;
+	font-family:Lucida Calligraphy;
+	font-weight:bold;
+}
+
+table#finalOrder td
+{
+	height:40px;
+	width:250px;
+	font-family:Lucida Calligraphy;
+	font-size:25px;
+	border:solid;
+	border-color:#FF9900;
+	border-style:dotted;
+	border-width:2px;
+}
+
+.menu
+{			
+	float:left;
+	width:50%;
+	text-align:center;
+}
+
+.menuWord
+{			
+	padding-top:85px;	
+}
+
+.sizeOfImg
+{
+	width:250px;
+	height:250px;
+}
+
+.nameOfDishes
+{
+	font-family:Lucida Calligraphy;
+	font-size:20px;
+	font-weight:bold;
+	color:#000066;
+}
+
+#dishes
+{
+	border:solid;
+	border-width:5px;
+	border-color:#3333FF;
+	border-style:dotted;
+}
+
+li#aHomeN1,#aStaffN1
+{
+	display:none;
+}
+
+#aHome1,#aStaff1
+{
+	display:none;
+}

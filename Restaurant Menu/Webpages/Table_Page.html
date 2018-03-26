@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Table Page</title>
+  <script type="text/javascript" src="../js/tablepage.js">		
+  </script>
+  <style type="text/css">
+<!--
+@import "../css/common_styles.css";
+@import "../css/tablepage.css";
+-->
+
+  </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="WANG Yiji" />
+  <meta name="description" content="Village cafe tablepage" />
+  <meta name="keywords"
+  content="cafe, village, french food, France, nice food, good food, cuisine, delicious, delicate"
+  />
+</head>
+
+<body>
+
+	<div id="all">
+	<!-- Banner -->
+
+		<div id="upper">
+
+			<div>
+				<img id="bannerPic" src="../image/village_cafe.png" alt="Village Cafe Picture"/> 
+			</div>
+		
+			<hr id="footerhr1" />
+		</div>
+		<!-- Table Pictures -->
+
+		<div id="TB">
+
+			<div id="bigTable">
+
+				<table id="tables" cellspacing="10">
+				  <tbody>
+					<tr>
+					  <td id="td1" onclick = "changeColor(this.id)">1</td>
+					  <td id="td2" onclick = "changeColor(this.id)">2</td>
+					  <td id="td3" onclick = "changeColor(this.id)">3</td>
+					  <td id="td4" onclick = "changeColor(this.id)">4</td>
+					</tr>
+					<tr>
+					  <td id="td5" onclick = "changeColor(this.id)">5</td>
+					  <td id="td6" onclick = "changeColor(this.id)">6</td>
+					  <td id="td7" onclick = "changeColor(this.id)">7</td>
+					  <td id="td8" onclick = "changeColor(this.id)">8</td>
+					</tr>
+					<tr>
+					  <td id="td9" onclick = "changeColor(this.id)">9</td>
+					  <td id="td10" onclick = "changeColor(this.id)">10</td>
+					  <td id="td11" onclick = "changeColor(this.id)">11</td>
+					  <td id="td12" onclick = "changeColor(this.id)">12</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+		</div>
+		<br/>
+		<hr class="hrDecoration" />
+		<br/>
+		<!-- New Booking -->
+	
+		<div id="newBooking">
+		 
+		  <form id="book" action="#">
+		  	<fieldset>
+			<legend>New Booking</legend>
+			
+			<div>
+				<label id="nTable">Table<span id="tableNumber">?</span></label>
+			</div>
+			<div id="bookTable1">
+				<label>Date:</label>
+				<div>				
+				<input id="input1" type="text" value="Enter Date" maxlength="11" name="Date" onclick="whenClickInput(this.id);"/>
+				</div>
+				<label>Time:</label> 
+				<div>
+				<input id="input2" type="text" value="Enter Time" maxlength="6" name="Time" onclick="whenClickInput(this.id);"/> 
+				</div>
+				<label>Person:</label> 
+				<div>
+				<input id="input3" type="text" value="Enter Name" name="Name" onclick="whenClickInput(this.id);"/> 
+				</div>
+				<label>Contact:</label> 
+				<div>
+				<input id="input4" type="text" value="Enter Tel NO." name="Tel No." maxlength="9" onclick="whenClickInput(this.id);"/> 
+				</div>
+				</div>
+			<div id="errorMsg">Description Box
+				</div>
+			</fieldset>
+			<div>
+				<button type="button" onclick="getError();" >Book</button> 
+				<button type="reset" onclick="reset2();">Clear</button>
+			</div>
+		  </form>
+		  
+			
+		
+		</div>
+		<br/>
+		<hr class="hrDecoration" />
+		<br/>
+		
+	<div id="readyForBook">
+		<div id="bookD">
+			<fieldset>
+			<legend>Booking Details</legend>
+
+			  <table id="bookingDetails" border="2" cellspacing="4">
+				<thead>
+					<tr><th>Table No.<span id="tableNumber2">?</span></th></tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>Date</td>
+					<td>Time</td>
+					<td>Person</td>
+					<td>Contact</td>
+				  </tr>
+				
+				</tbody>
+			  </table>
+			</fieldset>
+		</div>
+		<div id="order">
+			<a id="orderA" onclick="submit();"><img src="../image/order.png" alt="order image" /></a> 
+		</div>
+	</div>
+		<br/><br/>
+		<!-- Navigation bar and footer -->
+
+	<div id="NavigationFooter">
+		<hr id="footerhr" />
+
+		<div id="linka">
+			<span id="aHome1"><a>Home</a><span>|</span></span> 
+			<span id="aHome2"><a href="Home_Page.html">Home</a> |</span> 
+			<span id="aAbout"><a>About us</a>|</span> 
+			<span id="aPrivacy"><a>Privacy</a> |</span> 
+			<span id="aContact"><a>Contact us</a> |</span> 
+			<span id="aStaff1"><a id="aStaffW">Staff Only</a></span> 
+			<span id="aStaff2"><a href="Table_Page.html">Staff Only</a></span> 
+		</div>
+		<br />
+
+		<hr />
+
+		<div>
+			<span id="footer"><span>Designed by WANG Yiji &amp; Images provided by -</span>
+			<a href="http://commons.wikimedia.org">http://commons.wikimedia.org</a> </span>
+		</div>
+	</div>
+</div>
+	<!-- Following Navigation -->
+
+	<div id="navig">
+	<ul id="navigUl">
+	  <li id="aHomeN1"><a id="aHomeT">Home</a> 
+		<hr />
+	  </li>
+	  <li id="aHomeN2"><a href="Home_Page.html">Home</a> 
+		<hr />
+	  </li>
+	  <li id="aAboutN"><a>About us</a> 
+		<hr />
+	  </li>
+	  <li id="aPrivacyN"><a>Privacy</a> 
+		<hr />
+	  </li>
+	  <li id="aContactN"><a>Contact us</a> 
+		<hr />
+	  </li>
+	  <li id="aStaffN1"><a id="aStaffT">Staff Only</a> 
+		<hr />
+	  </li>
+	  <li id="aStaffN2"><a href="Table_Page.html">Staff Only</a> 
+		<hr />
+	  </li>
+	</ul>
+	</div>
+	<!--back to top-->
+
+	<div id="backToTop">
+	<a href="#upper"><img id="backT" src="../image/top.png" alt="back to top"
+	/></a> </div>
+</body>
+</html>

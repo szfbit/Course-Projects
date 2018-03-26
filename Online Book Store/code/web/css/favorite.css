@@ -1,0 +1,54 @@
+td {
+    text-align: center;
+}
+thead {
+    font-weight: bold;
+}
+.sum{
+    text-align: right;
+}
+.summ{
+    position:relative;
+    left:-10px;
+}
+table {
+    border-width: thin;
+    width: 550px;
+    margin: auto;
+    table-layout: fixed;
+}
+#remarkB
+{
+        height:500px;    
+	border:solid;
+	width:550px;
+	background-color: white;
+	margin-left:300px;
+}
+
+#starImg
+{
+    width:100px;
+    height:20px;
+}
+#bookImg
+{
+    width:60px;
+    height:90px;
+}
+.title {
+    width:  300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.bid {
+    width:75px;
+}
+.pic {
+    width:100px;
+}
+
+.del {
+
+}
